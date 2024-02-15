@@ -1,0 +1,41 @@
+:root{
+  --background-color: #EFEFEF;
+  --background-button: aqua;
+  --button-color: black;
+  --box-background: #EEEEEE;
+  --box-border-color: black;
+}
+
+.dark-mode{
+  --background-color: #111111;
+  --background-button: red;
+  --box-background: #272724;
+  --box-border-color: white;
+  --box-color: white;
+}
+
+body{
+  background-color: var(--background-color);
+}
+
+
+
+.bottoneChanging{
+  background-color: var(--background-button);
+  color: var(--button-color);
+}
+
+.singleBox{
+  width: 18%;
+  padding: 0.9em;
+  background-color: var(--box-background);
+  border: 1px solid var(--box-border-color);
+  color: var(--box-color);
+}
+
+.mainSection{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  gap: 15px;
+}
